@@ -21,6 +21,18 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/components/landing page/LandingPage.tsx",
+    "src/components/embeded codes/Advance widgets/EconomicCalendar.tsx",
+    "src/components/embeded codes/Advance widgets/MiniChart.tsx",
+    "src/components/embeded codes/Advance widgets/SymbolOverview.tsx",
+    "src/components/LoginAndSignup/Login.jsx",
+    "src/components/Mian Page/MarketNews.jsx",
+    "src/components/Mian Page/TopPicks.jsx"
+  ],
   "exclude": ["node_modules"]
 }
